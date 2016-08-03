@@ -43,7 +43,6 @@ public class RedditObjectJsonDeserializer implements JsonDeserializer
         }
     }
 
-
     private Class getClassForKind(String kind)
     {
         switch (kind)
