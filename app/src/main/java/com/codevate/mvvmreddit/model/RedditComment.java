@@ -5,9 +5,8 @@ import java.util.Date;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-@EqualsAndHashCode(callSuper = true)
 @Data
-public class RedditComment extends RedditObject
+public class RedditComment implements RedditObject
 {
     private String id;
     private String body;

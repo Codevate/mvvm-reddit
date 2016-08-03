@@ -5,9 +5,8 @@ import java.util.List;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-@EqualsAndHashCode(callSuper = true)
 @Data
-public class RedditListing extends RedditObject
+public class RedditListing implements RedditObject
 {
     private List<RedditObject> children;
     private String before;
